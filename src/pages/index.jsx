@@ -10,9 +10,11 @@ export default function Inicio(){
       flexWrap: "wrap",
       height: "100vh"
     }}>
-        <Navegador destino="/estiloso" texto="estiloso"/>
-        <Navegador destino="/exemplo" texto="exemplo" cor="#9400d3"/>
-        <Navegador destino="/jsx" texto="jsx" cor="crimson" />
+        <Navegador destino="/estiloso" texto="Estiloso"/>
+        <Navegador destino="/exemplo" texto="Exemplo" cor="#9400d3"/>
+        <Navegador destino="/jsx" texto="JSX" cor="crimson" />
+        <Navegador destino="/navegacao" texto="Navegação #01" cor="green" />
+        <Navegador destino="/cliente/123" texto="Navegação #02" cor="blue" />
     </div>
   )
 }
